@@ -3,9 +3,7 @@
     width: 50px;
     height: 50px;
     border: blue solid 2px;
-    display: inline-block;
-    vertical-align: top;
-
+    float: left;
 }
 .block2 {
     background-color: green;
@@ -25,8 +23,7 @@
     width: 50px;
     height: 50px;
     border: blue solid 2px;
-    display: inline-block;
-    vertical-align: top;
+    float: left;
 }
 .nav {
     float: right;
@@ -37,27 +34,21 @@
     margin: 20px;
 }
 .nav2 {
-    margin: 20px auto;
-    float: right;
-    width: 1000px;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;   
 }
 .bigblock {
     width: 100px;
     height: 100px;
     background-color: red;
     border: blue solid 2px;
-    display: inline-block;
-    vertical-align: top;
     margin-right: 10px;
-
-
+    float: left;
 }
 .box {
-    display: inline-block;
-    vertical-align: top;
     padding-top: 3px;
-
+    float: left;
 }
 .smallblock {
     width: 70px;
@@ -65,15 +56,12 @@
     background-color: green;
     border: blue solid 2px;
     margin-bottom: 10px;
-
-
 }
 .smallblock1 {
     width: 70px;
     height: 30px;
     background-color: green;
     border: blue solid 2px;
-
 }
 .nav2-1 {
     margin: 20px auto;
